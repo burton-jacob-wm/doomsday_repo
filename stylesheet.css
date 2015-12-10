@@ -7,8 +7,6 @@ body {
     font-size: 21px;
     line-height: 1.4;
 }
-
-
 ul, ol, dl {
     padding: 0;
     margin: 0;
@@ -20,7 +18,6 @@ li {
     color: #000;
 
 }
-
 h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
     padding-right: 15px;
@@ -32,38 +29,28 @@ a img {
     border: none;
     text-decoration: none;
 }
-
-
 a:link {
     margin-top: 0;
-    padding-right: 15px;
-    padding-left: 15px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-style: normal;
-    color: #395bff;
+    color: #000;
     text-decoration: none;
 
 }
 a:visited {
     margin-top: 0;
-    padding-right: 15px;
-    padding-left: 15px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-style: normal;
-    color: #395bff;
+    color: #000;
     text-decoration: none;
 }
 a:hover, a:active, a:focus {
     margin-top: 0;
-    padding-right: 15px;
-    padding-left: 15px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-style: normal;
-    background-color: #395bff;
-    color: #000;
+    color: #2f41d6;
     text-decoration: none;
 }
-
 .container {
     width: 100%;
     max-width: 1920px;
@@ -80,7 +67,6 @@ a:hover, a:active, a:focus {
     border-bottom: 2px solid rgba(0, 0, 0, 0.91);
     box-shadow: 0 8px 16px rgba(0,0,0,0.5);
 }
-
 .header {
     height: 80px;
     max-width: 1280px;
@@ -122,6 +108,8 @@ a:hover, a:active, a:focus {
     min-height: 605px;
     background-color: #FFFFFF;
     color: #000;
+    border-left: solid #000 2px;
+    border-right: solid #000 2px;
 }
 .contentLanding {
     margin: 0 auto;
@@ -130,25 +118,27 @@ a:hover, a:active, a:focus {
     min-height: 725px;
     background-color: #FFFFFF;
     color: #000;
+    border-left: solid #000 2px;
+    border-right: solid #000 2px;
 }
-.customerInfo , .customerPurchasing {
+.accountContent{
+    
+}
+.customerInfo , .customerPurchasing, .tourTime {
     margin: 0 auto;
     text-align: center;
     border: solid 1px #000;
 }
-
 table.customerInfo td, table.customerPurchasing td{
     width: 120px;
     border: solid 1px #000;
 }
-
 hr.fade {
     border: 0;
     height: 1px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
-
 .underground {
     margin: 0 auto;
     background-image: url("http://dirttwister.com/images/reflex/wiki/Kingston_rnd1_dirt.jpg");
@@ -164,4 +154,15 @@ hr.fade {
 .column2 {
     width: 30%;
     float: right;
+}
+#tourSignUp {
+    width: 60%;
+    float: left;
+}
+#tourSelection {
+    width: 40%;
+    float: right;
+}
+#smallText {
+    font-size: 14px;
 }

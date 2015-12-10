@@ -24,54 +24,53 @@
             <!--end header --></div>
         <!--end headercontainer --></div>
     <div class="content">
-        <h2>Be prepared for the Future!</h2>
+        <h2>Can't Decide? Need some help?</h2>
+        <p>Come take a tour at any of our facilities.</p>
+        <br>
         <hr class="fade">
+        <br>
         <form>
-            <fieldset>
-                <legend>Customer Info</legend>
-                <table class="customerInfo" cellspacing="0">
-                    <tr>
-                        <td>First Name:</td>
-                        <td >Last Name:</td>
-                        <td>Email:</td>
-                        <td>Address 1:</td>
-                        <td>Address 2:</td>
-                        <td>Phone Number:</td>
-                    </tr>
-                    <tr>
-                        <td><input type="text"></td>
-                        <td><input type="text"></td>
-                        <td><input type="text"></td>
-                        <td><input type="text"></td>
-                        <td><input type="text"></td>
-                        <td><input type="text"></td>
-                    </tr>
-                </table>
-            </fieldset>
-            <fieldset>
-                <legend>Purchasing Information</legend>
-                <table class="customerPurchasing" cellspacing="0">
-                    <tr>
-                        <td>Card Type:</td>
-                        <td>Card Number:</td>
-                        <td>Expiration:</td>
-                        <td>Billing Name:</td>
-                        <td>Address 1:</td>
-                        <td>Address 2:</td>
-                        <td>Phone Number:</td>
-                    </tr>
-                    <tr>
-                        <td><input type="text"></td>
-                        <td><input type="text"></td>
-                        <td><input type="date"></td>
-                        <td><input type="text"></td>
-                        <td><input type="text"></td>
-                        <td><input type="text"></td>
-                        <td><input type="text"></td>
-                    </tr>
-                </table>
-            </fieldset>
+            <div id="tourSignUp">
+                <h3>Sign Up!</h3>
+                <p>First Name: <input type="text"></p>
+                <p>Last Name: <input type="text"></p>
+                <p>Email: <input type="text"></p>
+                <p>Phone Number: <input type="text"></p>
+            </div>
+            <div id="tourSelection">
+                <br>
+                <p>Date: <input type="date"><br>
+                    <i><span id="smallText"> Bunkers are available for touring 24/7.</span></i>
+                </p>
+                <p>Location:
+                <select>
+                    <optgroup label="Western USA">
+                        <option value="california">California SafeZone</option>
+                        <option value="washington">Washington SafeZone</option>
+                    </optgroup>
+                    <optgroup label="Central USA">
+                        <option value="kansas">Kansas SafeZone</option>
+                        <option value="texas">Texas SafeZone</option>
+                    </optgroup>
+                    <optgroup label="Eastern USA">
+                        <option value="newyork">New York SafeZone</option>
+                        <option value="florida">Flordia SafeZone</option>
+                    </optgroup>
+                </select>
+                </p>
+                <p>SafeZone ID:
+                    <select>
+                        <option value="titanium">Titanium</option>
+                        <option value="cobolt">Cobalt</option>
+                        <option value="stronghold">Stronghold</option>
+                        <option value="tower">Tower</option>
+                    </select>
+                </p>
+            </div>
         </form>
+        <br>
+        <hr class="fade">
+        <br>
     </div>
 </div>
 </body>
