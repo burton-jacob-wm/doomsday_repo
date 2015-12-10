@@ -157,3 +157,10 @@ hr.fade {
     width: 100%;
     border-bottom: 40px solid #000;
 }
+.column1 {
+    width: 70%;
+}
+.column2 {
+    width: 28%;
+    float: right;
+}
