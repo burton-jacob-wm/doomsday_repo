@@ -153,6 +153,7 @@ hr.fade {
     width: 100%;
     border-bottom: 40px solid #000;
 }
+<<<<<<< HEAD
 
 #images {
   width: 400px;
@@ -196,3 +197,12 @@ hr.fade {
 #slider a:hover {
   background: #C6E4F2;
 }
+=======
+.column1 {
+    width: 70%;
+}
+.column2 {
+    width: 28%;
+    float: right;
+}
+>>>>>>> Jacob
