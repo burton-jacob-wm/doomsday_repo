@@ -72,6 +72,9 @@ a:hover, a:active, a:focus {
     max-width: 1280px;
     margin:0 auto;
 }
+#headertext{
+    -webkit-text-stroke: 1px #000;
+}
 /* LANDING HOME PAGE*/
 .landing {
     margin: 0 auto;
@@ -122,8 +125,19 @@ a:hover, a:active, a:focus {
     border-right: solid #000 2px;
 }
 .accountContent{
-    
+    margin: 80px auto 0;
+    padding: 10px 5px;
+    max-width: 1020px;
+    min-height: 605px;
+    background-color: #ffffff;
+    color: #000;
+    border-left: solid #000 2px;
+    border-right: solid #000 2px;
 }
+#loginForm{
+    text-align: center;
+}
+
 .customerInfo , .customerPurchasing, .tourTime {
     margin: 0 auto;
     text-align: center;
@@ -155,14 +169,28 @@ hr.fade {
     width: 30%;
     float: right;
 }
-#tourSignUp {
+#formCol1 {
     width: 60%;
     float: left;
 }
-#tourSelection {
+#formCol2 {
     width: 40%;
     float: right;
 }
 #smallText {
     font-size: 14px;
+}
+#billingForm table{
+    table-layout: fixed;
+    width: 400px;
+}
+#billingForm td {
+    width: 200px;
+}
+#infoForm table{
+    table-layout: fixed;
+    width: 400px;
+}
+#infoForm td {
+    width: 200px;
 }
