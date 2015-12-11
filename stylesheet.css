@@ -78,6 +78,8 @@ a:hover, a:active, a:focus {
 /* LANDING HOME PAGE*/
 .landing {
     margin: 0 auto;
+    background-image: url("http://iliketowastemytime.com/sites/default/files/rolling-hills-hd-wallpaper.jpg");
+    background-size: cover;
     height: 725px;
     width: 100%;
     border-top: 40px solid #000;
@@ -155,6 +157,8 @@ hr.fade {
 }
 .underground {
     margin: 0 auto;
+    background-image: url("http://dirttwister.com/images/reflex/wiki/Kingston_rnd1_dirt.jpg");
+    background-repeat: repeat;
     min-height: 725px;
     width: 100%;
     border-bottom: 40px solid #000;
@@ -167,8 +171,6 @@ hr.fade {
     width: 30%;
     float: right;
 }
-<<<<<<< HEAD
-=======
 #formCol1 {
     width: 60%;
     float: left;
@@ -194,4 +196,3 @@ hr.fade {
 #infoForm td {
     width: 200px;
 }
->>>>>>> Jacob
