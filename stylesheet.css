@@ -121,10 +121,11 @@ a:hover, a:active, a:focus {
     padding: 10px 5px;
     max-width: 1020px;
     min-height: 725px;
-    background-color: #FFFFFF;
+    background-color: #FFF;
     color: #000;
     border-left: solid #000 2px;
     border-right: solid #000 2px;
+    overflow: auto;
 }
 .accountContent{
     margin: 80px auto 0;
